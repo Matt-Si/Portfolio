@@ -8,7 +8,7 @@
 	body {
 		font-family: 'Roboto', sans-serif;
 		height: 100vh;
-		background-color:#e7e4e4;
+		background-color:	#f0f0f5;
 	
 }
 
@@ -20,6 +20,7 @@ nav{
 	background-color: #303030;;
 	width: 100%;
 	min-height: 6vh;
+	
 }
 .logo{
 	color: #f0f0f5;
@@ -57,47 +58,92 @@ nav ul li a {
 
 #homepage{
 	width: 100%;
-	height: 500px;
-	background-color:#c9c9c9; 
-
+	min-height: 800px;
+	background-color: #ffffffbd;
 }
 
-h1{
 
-	line-height: 200px;
+.hometext{
+	display: block;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;	
+	top: 300px;
+}
+h1{
+	font-weight: 900;
 	font-size: 150px;
 	text-align: center;
 }
 h2{
+	font-weight: 300;
 	text-align: center;
 }
-
+.separateline{
+	width:100%;
+	height: 2px;
+	background-color: white;
+	box-shadow: 0 0 2px black;
+}
 #about{
+	background-color:#f0f0f5;
+	width: 100%;
+	padding: 40px 0;
+}
+
+.title-about{
+ 	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 70px;
+	
+}
+.title-about h3{
+	font-size: 40px;
 	margin: auto;
-	background-color: #e7e4e4;
-	width: 50%;
-	height: 800px;
+	color: #303030
+}
+.flex-box{
+	width: 80%;
+	margin: auto;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	text-align: center;
 	
-	
-	
-}
-.selfie img{
-	
-	max-width: 60%;
-	height: auto;
-	border-radius: 50%;
-	border: 5px solid #f0f0f5;
-
-}
+ }
+ 
 .text{
-	max-width: 40%;
-	height: auto;
-	text-align: justify;
+flex-basis: 50%;	
+
+}
+.selfie{
+	flex-basis: 50%;
+	margin: auto;
+}
+ 
+.selfie img{
+	width:60%;
+	border-radius: 50%;
 }
 
-h4 p{
-	width: 100px;
+.text h4{
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #303030
+
+}
+
+.text-desc p{
+	text-align: justify;
+	line-height: 1.6;
+
+}
+
+
+#projects{
+	background-color: #f0f0f5;
+	width: 100%;
+	height: 500px;
 }
