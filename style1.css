@@ -4,28 +4,25 @@
 		scroll-behavior: smooth;
 		box-sizing: border-box;
 }
+html { font-size: 2vw; }
 
 	body {
 		font-family: 'Roboto', sans-serif;
-		height: 100vh;
-		background-color:	#f0f0f5;
-	
+		background: linear-gradient(217deg, rgb(122, 217, 255), rgb(0, 121, 219) 70.71%);
 }
 
 
 nav{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	background-color: #303030;;
-	width: 100%;
-	min-height: 6vh;
-	
+	height: 50px;
 }
 .logo{
 	color: #f0f0f5;
 	font-size: 25px;
 	font-weight: 700;
+	padding: 0 50px;
 
 }
 .nav-links{
@@ -33,8 +30,7 @@ nav{
 	justify-content: space-around;
   	list-style: none;
 	align-items: center;
-	width: 40%;
-
+	width: 50%;
 }
 nav ul li a {
 	text-decoration: none;
@@ -57,9 +53,9 @@ nav ul li a {
 }
 
 #homepage{
-	width: 100%;
+	
 	min-height: 800px;
-	background-color: #ffffffbd;
+	
 }
 
 
@@ -69,6 +65,8 @@ nav ul li a {
 	margin-left: auto;
     margin-right: auto;	
 	top: 300px;
+	color:  #f0f0f5;
+
 }
 h1{
 	font-weight: 900;
@@ -78,27 +76,22 @@ h1{
 h2{
 	font-weight: 300;
 	text-align: center;
+	font-size: 25px;
 }
-.separateline{
-	width:100%;
-	height: 2px;
-	background-color: white;
-	box-shadow: 0 0 2px black;
-}
+
 #about{
-	background-color:#f0f0f5;
-	width: 100%;
+	background-color: #ececec;
 	padding: 40px 0;
 }
 
 .title-about{
  	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 70px;
+	padding: 50px 0;
 	
 }
 .title-about h3{
-	font-size: 40px;
+	font-size: 60px;
 	margin: auto;
 	color: #303030
 }
@@ -109,41 +102,98 @@ h2{
 	flex-wrap: wrap;
 	align-items: center;
 	text-align: center;
-	
+	justify-content: center;
+	padding-bottom: 50px;
+
  }
  
 .text{
-flex-basis: 50%;	
-
+	flex-basis: 50%;	
+	margin: auto;
+	background-color: #fafafa;
+	border-radius: 15px;
+	padding: 25px;
 }
 .selfie{
-	flex-basis: 50%;
+	flex-basis: 50%;	
 	margin: auto;
+
 }
  
 .selfie img{
-	width:60%;
-	border-radius: 50%;
+max-width: 60%;
+border-radius: 50%;
+border: 10px solid #fafafa;
+
 }
 
-.text h4{
+.text h2{
 	text-align: left;
 	margin-bottom: 20px;
-	font-size: 25px;
+	font-size: 50px;
 	font-weight: bold;
-	color: #303030
+	color:#0A81DE
 
 }
 
 .text-desc p{
 	text-align: justify;
 	line-height: 1.6;
+	font-size: 15px;
+
 
 }
 
-
 #projects{
-	background-color: #f0f0f5;
-	width: 100%;
-	height: 500px;
+	background-color:  #eeeeee;
+	margin: auto;
+	height: 100vh;
+}
+.title-projects{
+
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.title-projects h3{
+	font-size: 40px;
+	margin: auto;
+	color: #303030
+}
+.flex-box-projects{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	gap: 20px;
+}
+.project1 {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+.project2 {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+
+}
+.project3 {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+.project4 {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
 }
